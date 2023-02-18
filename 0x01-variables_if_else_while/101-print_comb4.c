@@ -16,9 +16,9 @@ int main(void)
 			{
 				if (c > b && b > a)
 				{
-					putchar(n);
-					putchar(m);
-					putchar(l);
+					putchar(a);
+					putchar(b);
+					putchar(c);
 					if (a != 55 || b != 56)
 					{
 						putchar(',');

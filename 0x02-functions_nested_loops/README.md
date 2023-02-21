@@ -8,3 +8,4 @@ Projects on 0x02. C - Functions, nested loops
 6. function that computes the absolute value of an integer.
 7. function that prints the last digit of a number.
 8. function that prints every minute of the day of Jack Bauer, starting from 00:00 to 23:59.
+9. function that prints the 9 times table, starting with 0.

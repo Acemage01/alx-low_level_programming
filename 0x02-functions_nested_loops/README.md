@@ -11,3 +11,4 @@ Projects on 0x02. C - Functions, nested loops
 9. function that prints the 9 times table, starting with 0.
 10.  function that adds two integers and returns the result.
 11. function that prints all natural numbers from n to 98, followed by a new line.
+12. function that prints the n times table, starting with 0.

@@ -1,4 +1,4 @@
 #!/bin/bash
 git add .
-git commit -m 'Update on 0x00. C - Hello, World'
+git commit -m 'Update on tasks  0x01. C - Variables, if, else, while'
 git push

@@ -9,3 +9,5 @@ Tasks on 0x05. C - Pointers, arrays and strings
 7. function that prints half of a string, followed by a new line.
 8. function that prints n elements of an array of integers, followed by a new line.
 9. function that copies the string pointed to by src, including the terminating null byte (\0), to the buffer pointed to by dest.
+10. function that convert a string to an integer.
+11. program that generates random valid passwords for the program 101-crackme.

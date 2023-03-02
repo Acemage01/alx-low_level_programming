@@ -1,0 +1,4 @@
+#!/bin/bash
+git add .
+git commit -m 'Updates on task 0x06. C -More Pointers, arrays and strings'
+git push

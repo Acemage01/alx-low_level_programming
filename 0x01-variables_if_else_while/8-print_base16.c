@@ -11,7 +11,7 @@ int main(void)
 	int d;
 	char al;
 
-	for (d = 18; d < 28; d++)
+	for (d = 48; d < 58; d++)
 	{
 		putchar(d);
 	}

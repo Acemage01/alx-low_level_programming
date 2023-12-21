@@ -17,7 +17,7 @@ int main(void)
 		if (sqsum > 4000000)
 			break;
 
-		if ((squm % 2) == 0)
+		if ((sqsum % 2) == 0)
 			total += sqsum;
 
 		sq1 = sq2;

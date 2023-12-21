@@ -1,0 +1,4 @@
+#!/bin/bash
+git add .
+git commit -m 'C projects: 0x02. C - Functions, nested loops'
+git push

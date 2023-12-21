@@ -3,7 +3,7 @@
 /**
  * _abs - Computes the absolute value of an integer.
  *
- * @number; integer
+ * @number: integer to be computed
  *
  * Return: The absolute value of the integer.
  */

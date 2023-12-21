@@ -3,7 +3,6 @@
 /**
  * main - Prints the sum of even-valued 
  * Fibonacci sequence terms not exceeding 4000000.
- *
  * Return: 0 Always
  */
 

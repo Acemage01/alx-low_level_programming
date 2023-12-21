@@ -1,9 +1,9 @@
 #include"main.h"
 
 /**
- * main - print n to 98 counts separated by comma, 
+ * print_to_98 - print n to 98 counts separated by comma, 
  * followed by space and number should be printed in order
- *
+ *@n: number to input
 */
 
 void print_to_98(int n)

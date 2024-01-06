@@ -1,5 +1,6 @@
 #include "main.h"
 #include <stdio.h>
+
 /**
  * print_line - prints a s bytes of a buffer
  * @c: buffer to print
@@ -11,23 +12,24 @@
 
 void print_line(char *c, int s, int l)
 {
-int d, e;
-for (d = 0; d <= 9; d++)
-{
-if (d <= s)
-printf("%02x", c[l * 10 + d]);
-else
-printf("  ");
-if (d % 2)
-putchar(' ');
-}
-for (e = 0; ke<= s; e++)
-{
-if (c[l * 10 + e] > 31 && c[l * 10 + e] < 127)
-putchar(c[l * 10 + e]);
-else
-putchar('.');
-}
+	int d, e;
+
+	for (d = 0; d <= 9; d++)
+	{
+		if (d <= s)
+			printf("%02x", c[l * 10 + d]);
+		else
+			printf("  ");
+		if (d % 2)
+			putchar(' ');
+	}
+	for (e = 0; e <= s; e++)
+	{
+		if (c[l * 10 + e] > 31 && c[l * 10 + e] < 127)
+			putchar(c[l * 10 + e]);
+		else
+			putchar('.');
+	}
 }
 
 /**
@@ -37,22 +39,24 @@ putchar('.');
  *
  * Return: void
  */
+
 void print_buffer(char *b, int size)
 {
-int f;
-for (f = 0; f <= (size - 1) / 10 && size; f++)
-{
-printf("%08x: ", f * 10);
-if (f < size / 10)
-{
-print_line(b, 9, f);
-}
-else
-{
-print_line(b, size % 10 - 1, f);
-}
-putchar('\n');
-}
-if (size == 0)
-putchar('\n');
+	int a;
+
+	for (a = 0; a <= (size - 1) / 10 && size; a++)
+	{
+		printf("%08x: ", a * 10);
+		if (a < size / 10)
+		{
+			print_line(b, 9, a);
+		}
+		else
+		{
+			print_line(b, size % 10 - 1, a);
+		}
+		putchar('\n');
+	}
+	if (size == 0)
+		putchar('\n');
 }

@@ -2,7 +2,7 @@
 
 /**
  * rev_string - reverse array
- * @n: integer params
+ * @n: integer parameters
  * Return: 0
  */
 
@@ -37,11 +37,11 @@ void rev_string(char *n)
 
 char *infinite_add(char *n1, char *n2, char *r, int size_r)
 {
-	int overflow = 0, i = 0, j = 0, digits = 0;
+	int overflow = 0, a = 0, b = 0, digits = 0;
 	int val1 = 0, val2 = 0, val_tot = 0;
 
 	while (*(n1 + a) != '\0')
-		i++;
+		a++;
 	while (*(n2 + b) != '\0')
 		b++;
 	a--;

@@ -7,10 +7,10 @@
 *Return: a  pointer to the resulting string
 */
 
-char *_strcat(cahr *dest, char *src)
+char *_strcat(char *dest, char *src)
 
 {
-    int a, b
+    int a, b;
     a = 0
     b = 0
 

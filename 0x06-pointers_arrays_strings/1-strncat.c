@@ -1,6 +1,6 @@
 #include "main.h"
 
-/*
+/**
  * _strncat - concatenates n bytes from a string to another
  * @dest: destination string
  * @src: source string
@@ -29,4 +29,5 @@ char *_strncat(char *dest, char *src, int n)
 	dest[a] = '\0';
 
 	return (dest);
+
 }

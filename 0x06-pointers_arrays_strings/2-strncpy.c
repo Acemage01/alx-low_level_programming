@@ -1,6 +1,6 @@
 #include "main.h"
 
-/*
+/**
  * _strncpy - copies a string
  * @dest: destination string
  * @src: source string
@@ -8,6 +8,7 @@
  *
  * Return: pointer to the resulting string
  */
+
 char *_strncpy(char *dest, char *src, int n)
 {
 	int a;
@@ -27,4 +28,5 @@ char *_strncpy(char *dest, char *src, int n)
 	}
 
 	return (dest);
+
 }

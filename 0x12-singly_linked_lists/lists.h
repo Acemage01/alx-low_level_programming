@@ -4,7 +4,9 @@
 
 /**
  * struct list_s - singly linked list
- *
+ * @str: malloc'ed string
+ * @len: length of string
+ * @next: points to next node
  */
 
 typedef struct list_s

@@ -7,6 +7,7 @@
  */
 
 void rev_string(char *s)
+
 {
 	char fun;
 	int a, val1, val2;
@@ -14,14 +15,14 @@ void rev_string(char *s)
 	val1 = 0;
 	val2 = 0;
 
-	while (s[val] != '\0')
+	while (s[val1] != '\0')
 	{
 		val2++;
 	}
 
 	val2 = val1 - 1;
 
-	for (a = 0; a < len / 2; a++)
+	for (a = 0; a < val1 / 2; a++)
 	{
 		fun = s[a];
 		s[a] = s[val2];
